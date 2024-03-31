@@ -716,8 +716,9 @@ $btn-mb: 0.5rem;
 
   #avatar {
     display: block;
-    width: 7rem;
-    height: 7rem;
+	padding-right: 1.0rem;
+    /* width: 7rem;
+    height: 7rem; */
     overflow: hidden;
     /* box-shadow: var(--avatar-border-color) 0 0 0 2px; */
     transform: translateZ(0); /* fixed the zoom in Safari */
@@ -735,8 +736,8 @@ $btn-mb: 0.5rem;
     @include mt-mb(2.5rem);
     @extend %clickable-transition;
 
-    /* padding-left: 2.5rem;
-    padding-right: 1.25rem; */
+    padding-left: 2.5rem;
+    padding-right: 1.25rem;
     width: 100%;
   }
 
@@ -758,6 +759,8 @@ $btn-mb: 0.5rem;
   }
 
   .site-subtitle {
+	padding-right: 1.25rem;
+	text-align: center;
     font-size: 95%;
     color: var(--site-subtitle-color);
     margin-top: 0.25rem;
