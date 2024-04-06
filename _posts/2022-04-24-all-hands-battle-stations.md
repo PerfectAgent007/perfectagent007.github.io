@@ -1,7 +1,7 @@
 ---
 title: All Hands - Battle Stations
 date: "2022-04-24T22:28:30-04:00"
-description: I’ve had what is classified as a battle station for about four years
+description: I’ve had what is classified as a battle station for about four years...
 tags: [Gaming, Technology]
 image: /assets/img/2022/04/shutterstock_213290617-1024x683-1-e1650853620389.jpg
 ---
