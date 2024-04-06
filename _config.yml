@@ -16,10 +16,12 @@ timezone: America/Detroit
 
 title: PerfectAgent007 # the main title
 
-tagline: I am an Agent powered<br> by Unreal technology # it will display as the sub-title
+tagline: I am an Agent powered<br>
+  by Unreal technology # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  I am an Agent powered by Unreal technology
+  I am an Agent powered<br>
+  by Unreal technology
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -174,7 +176,6 @@ defaults:
 
 sass:
   style: compressed
-  sass_dir: _sass
 
 compress_html:
   clippings: all
@@ -203,5 +204,3 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-feed_show_excerpt: true
