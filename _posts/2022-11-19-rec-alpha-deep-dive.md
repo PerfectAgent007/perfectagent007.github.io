@@ -17,11 +17,11 @@ The original model chosen was the Solaria PowerXT 400, however delays in the per
 <table style="table-layout:fixed; width:100%;">
     <tr style = "background:none; border:0">
         <td style = "position:relative; width:50%; text-align:center">
-        <p><img style="max-width:100%; max-height:100%; top:0;" src="/assets/img/2022/11/Solaria400PlusSeries.png"><br>
+        <p><img style="max-width:100%; max-height:100%; top:0;" src="/assets/img/2022/11/Solaria400PlusSeries.png" alt=""><br>
         <i>Solaria PowerXT 400 and 430 Panels</i></p>
         </td>
         <td style = "position:relative; width:50%; text-align:center">
-        <p><img style="max-width:100%; max-height:100%; top:0;" src="/assets/img/2022/11/Solaria400SeriesSpecs.png"><br>
+        <p><img style="max-width:100%; max-height:100%; top:0;" src="/assets/img/2022/11/Solaria400SeriesSpecs.png" alt=""><br>
         <i>PowerXT panel specs</i></p>
         </td>
     </tr>
