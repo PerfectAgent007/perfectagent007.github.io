@@ -17,7 +17,7 @@ I’ve had what is classified as a battle station for about four years.  I’ve
 - Six monitors – Command Center
 - More – Dude … WTF?  I can’t even … I don’t understand!
 
-![Quake3_24_monitors](/assets/img/2022/04/quake-highres-plastknet.jpg)
+![Quake3_24_monitors](/assets/img/2022/04/quake-highres-plastknet.jpg "Dafuq?")
 *<i>I’m inventing the term LethalVision for this setup because the user’s brain should explode from visual overload</i>*
 
 I’ve got three monitors at present so I’ve got a battle station.  If there is one thing I can definitely appreciate from this display arrangement it is the high levels of productivity since having three separate work spaces, or one or more spanned work spaces, allows me to spread things out and keep more information on my screens without having to go crazy trying to find that one Chrome tab that had that important website I was reading ten minutes ago.  And for the record I usually have no less than 120 tabs open at any given time spread across about ten windows.  Some of these tabs never get closed and will remain for a ridiculously long time.
