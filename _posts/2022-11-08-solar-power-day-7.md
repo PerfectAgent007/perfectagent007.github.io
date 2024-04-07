@@ -1,7 +1,7 @@
 ---
-title: "Solar Power: Day 6"
-date: 2022-11-04 23:38:00 -0400
-description: We're gonna need a bigger forklift...
+title: "Solar Power: Day 7"
+date: 2022-11-08 03:28:00 -0400
+description: Fresh planed Douglas Fir smells amazing.  I'm not kidding...
 tags: [Solar Power, Blog Babble, Science, Technology]
 image: /assets/img/2022/11/800px_COLOURBOX1489979.jpg
 ---
