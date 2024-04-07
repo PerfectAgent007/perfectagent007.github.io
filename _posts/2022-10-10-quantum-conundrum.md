@@ -3,7 +3,7 @@ title: "Simultaneously Speeding Up and Slowing Down: A Quantum Conundrum"
 date: 2022-10-10 16:41:00 -0400
 description: So much time and so little to do ... never mind, reverse that...
 tags: [Blog Babble]
-image: /assets/img/2022/11/1520057376950.jpg
+image: /assets/img/2022/10/1520057376950.jpg
 ---
 
 This probably doesn’t have anything to do with Quantum Physics, it’s been nearly twenty years since I had those lessons in my Engineering Physics classes in college. But I did a quick search to refresh my memory on what the theory was that stated no two (or more) objects could occupy the same space simultaneously. Turns out that’s actually a misquote since the original statement referenced fermions, something I don’t recall being covered in my classes. So relegating that to Newtonian Physics and shelving that particular topic, there is still the issue that’s plaguing me of late – speeding up and slowing down at the same time.
