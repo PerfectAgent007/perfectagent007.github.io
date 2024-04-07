@@ -3,7 +3,7 @@ title: "Solar Power: Day 5"
 date: 2022-11-04 03:12:00 -0400
 description: And they gathered next to one roof, stared at it, and came up with a plan...
 tags: [Solar Power, Blog Babble, Science, Technology]
-image: /assets/img/2022/11/TNG_TransporterBeam.jpg
+image: /assets/img/2022/11/solar1.png
 ---
 
 Captain's Log, November 3, 2022: If Engineering doesn't come up with a better sound for an oscillator I'm jumping into an escape pod and self destructing my ship.
