@@ -1,5 +1,5 @@
 ---
-title: "Solar Power Day 14"
+title: "Solar Power Day 15"
 date: 2022-12-02 19:03:00 -0400
 description: Concrete slabs are literally designed to come apart at the seams?  Curious...
 tags: [Solar Power, Blog Babble, Science, Technology]
