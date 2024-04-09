@@ -1,7 +1,7 @@
 ---
 title: "Solar Power: Day 13"
 date: 2022-11-29 23:17:00 -0400
-description: "Who ordered the truckload of gray matter?..."
+description: '"Who ordered the truckload of gray matter?..."'
 tags: [Solar Power, Blog Babble, Science, Technology]
 image: /assets/img/2022/11/concrete_thumb.png
 ---
