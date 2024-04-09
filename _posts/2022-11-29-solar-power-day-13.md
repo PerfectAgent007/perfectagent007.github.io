@@ -18,7 +18,7 @@ The crew first unloaded their ladders and other tools, after which I promptly di
 ![Microinverters](/assets/img/2022/11/IMG_20221129_101019.jpg)
 *<i>This was like opening a box of hard drives for me, I may have yelled "SQUEEE!!!!"</i>*
 
-This was like opening a box of hard drives for me, I may have yelled "SQUEEE!!!!"
+While the majority of the crew got started on both roofs, the electrician grabbed a heat pad (not the pain relief kind) and wrapped it around the electrical conduit stub out to soften it. This allowed him to bend the conduit up against the pergola and make a nice tidy transition instead of a pipe sticking up out of the ground at an odd angle.
 
 ![ConduitHeater](/assets/img/2022/11/IMG_20221129_103708.jpg)
 *<i>The pad used a velcro strap to wrap tightly around the conduit. The pad itself just plugged into 120v wall power.</i>*
