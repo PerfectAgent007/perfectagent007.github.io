@@ -1,7 +1,7 @@
 ---
-title: "Solar Power: Day 11"
-date: 2022-11-23 23:55:00 -0400
-description: Something got nailed today ... a lot...
+title: "Solar Power: Day 12"
+date: 2022-11-28 22:36:00 -0400
+description: Some ground-breaking changes happened today...
 tags: [Solar Power, Blog Babble, Science, Technology]
 image: /assets/img/2022/11/UnderTheGroundThumb.jpg
 ---
