@@ -1,7 +1,7 @@
 ---
 title: "Solar Power Day 22"
 date: 2022-12-27 19:45:00 -0400
-description: "There isn't enough wrapping paper to cover my pergola, so I'm using wood instead. :P"
+description: "I spent most of today ripping"
 tags: [Solar Power, Blog Babble, Science, Technology]
 image: /assets/img/2022/12/763pd8.jpg
 ---
