@@ -1,5 +1,5 @@
 ---
-title: "Deep Dive on Enphase IQ7+ Microinverter and IQ Combiner 4 Photovoltaic Combiner Box"
+title: "Deep Dive on Enphase IQ7+ Microinverter and IQ Combiner 4 Box"
 date: 2022-12-01 11:13:00 -0400
 description: In-depth look at the things that turn DC power into AC...
 tags: [Solar Power, Blog Babble, Science, Technology]
