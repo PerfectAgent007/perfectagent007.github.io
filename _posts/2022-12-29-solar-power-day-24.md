@@ -33,4 +33,4 @@ While the fence itself is complete, at this point roughly half of the pergola po
 
 ![Fir](/assets/img/2022/12/IMG_20221229_145252.jpg)
 
-Instead of installing boards as they were done, we opted to batch out as many boards as we could in the time we had left (which was about 90 min after the picture above) and then install them next week when the crew returns after New Year's Day.  This also gives me a few days to glue up some boards since we didn't quite have enough full-width boards for all of the post faces.  I have some ideas on how I'm going to accomplish this, but for now I'm signing off to enjoy the long weekend.  See you in 2023!
+Instead of installing boards as they were done, we opted to batch out as many boards as we could in the time we had left (which was about 90 min after the picture above) and then install them next week when the crew returns after New Year's Day.  This also gives me a few days to glue up some boards since we didn't quite have enough full-width boards for all of the post faces.  I have some ideas on how I'm going to accomplish this, but for now I'm signing off to enjoy the long weekend.  Happy New Year and I'll see you in 2023!
