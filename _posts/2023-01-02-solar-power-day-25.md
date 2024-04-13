@@ -1,5 +1,5 @@
 ---
-title: "Solar Power Day 24"
+title: "Solar Power Day 25"
 date: 2023-01-02 20:55:00 -0400
 description: "Mmmmm Douglas Fir, *drools*..."
 tags: [Solar Power, Blog Babble, Science, Technology]
