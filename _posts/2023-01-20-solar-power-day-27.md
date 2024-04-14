@@ -3,7 +3,7 @@ title: "Solar Power Day 27"
 date: 2023-01-20 23:33:00 -0400
 description: "Hot damn at last!"
 tags: [Solar Power, Woodworking, Blog Babble, Science, Technology]
-image: /assets/img/2023/01/wrapitup.jpg
+image: /assets/img/2023/01/2021thatsawrap21639010850033.png
 ---
 
 It's been about two weeks since I last posted, longer than I was expecting.  Ultimately everything has worked out fine, I just spent a lot of time waiting.  It was almost two weeks before the project lead for the pergola returned for the last day of work.  When he did, I had already finished gluing up the remaining boards for the pergola posts.  I ended up using a combination of biscuits and pocket screws, alternating about every four inches.  The thickness of the boards landed in between settings on my pocket hole drilling jig (Kreg K5) so to ensure the pocket screws didn't pop out the front side, I set the depth stop so that I was drilling a touch higher than recommended.  This worked out fine since the biscuits and glue are what are really holding these boards together, the screws are to clamp it all together.  The only bit of touch-up work to do was grind down the exposed screw heads so they were flush, otherwise there could be a bulge in the center of the boards and that would not be good for joint integrity.
