@@ -10,4 +10,4 @@ Just got off the phone with my solar engineer, who is the same person that offer
 
 If the CEO can't fulfill the contract or won't refund me, it's time for the lawyers.  Ugh...
 
-Since the weather is better now, I'm going to stain the pergola myself since there is definitely nobody at my solar company available (maybe even left) to handle this.  Details to come.
+Since the weather is better now, I'm going to stain the pergola myself since there is definitely nobody at my solar company left, let alone available, to handle this.  Details to come.
