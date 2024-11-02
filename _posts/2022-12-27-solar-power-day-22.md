@@ -4,6 +4,7 @@ date: 2022-12-27 19:45:00 -0400
 description: "I spent most of today ripping"
 tags: [Solar Power, Blog Babble, Science, Technology]
 image: /assets/img/2022/12/763pd8.jpg
+last_modified_at: 2022-12-27 19:45:00 -0400
 ---
 
 I hope everyone had a fantastic Christmas. I got snowed in pretty good! It's a full blown winter wonderland outside and I am loving it!

@@ -4,6 +4,7 @@ date: 2022-12-29 20:13:00 -0400
 description: "Oh hi, fency meeting you here..."
 tags: [Solar Power, Blog Babble, Science, Technology]
 image: /assets/img/2022/12/IMG_20221229_141533_thumb.jpg
+last_modified_at: 2022-12-29 20:13:00 -0400
 ---
 
 Only a few photos to show this time, but the good news is that the fence is finished.  But before I dive into that, I'm also pleased to report that my cleaning efforts were successful last night with my planer.  It took me about 40 minutes of scrubbing with mineral spirits and acetone to loosen everything up underneath the cutter heads, but it's finally clean.

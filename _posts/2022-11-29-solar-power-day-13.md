@@ -4,6 +4,7 @@ date: 2022-11-29 23:17:00 -0400
 description: '"Who ordered the truckload of gray matter?..."'
 tags: [Solar Power, Blog Babble, Science, Technology]
 image: /assets/img/2022/11/concrete_thumb.png
+last_modified_at: 2022-11-29 23:17:00 -0400
 ---
 
 Another busy day today with both the solar crew and concrete crew at work. I woke up early since I didn't know what time the concrete crew would be arriving. The very first thing that happened is I saw a text on my phone from my pergola project manager informing me that I needed to mark out the area where a void in the new concrete slab would need to go so that the gas line for the kitchen could come up out of the ground inside the cabinets. After grabbing a tape measure and a can of white spray paint I stumbled outside and drew a box:

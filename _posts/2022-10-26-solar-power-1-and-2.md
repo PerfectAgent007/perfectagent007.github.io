@@ -4,6 +4,7 @@ date: 2022-10-26 23:15:00 -0400
 description: Let mayem begin...
 tags: [Solar Power, Blog Babble, Science, Technology]
 image: /assets/img/2022/10/Concrete-Piers-foundation.jpg
+last_modified_at: 2022-10-26 23:15:00 -0400
 ---
 
 So here we are at the end of October. After super long delays with the contractor for the pergola construction has finally begun. The past two days have been digging holes for the footings and then pouring concrete into the cardboard form tubes. I forgot to get a picture of this but honestly there isn't anything worth photographing yet. However I do feel insanely bad for the one young guy they had digging all four holes. I was told the contractor had an emergency situation where a tree had fallen on another client's brand new raised deck just two days before everything was to be wrapped up, and as such they sent the only person available. But this 20-something kid dug each hole around sixteen inches in diameter and went down forty eight inches to get below the frost line and he did all of that with just a shovel and a post hole digger (plus a circular saw and a diamond blade for the one footing that went in my existing pool deck). Maybe I can get him a gift certificate to a massage therapist or a chiropractor…

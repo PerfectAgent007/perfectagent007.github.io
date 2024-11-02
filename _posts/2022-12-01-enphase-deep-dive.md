@@ -4,6 +4,7 @@ date: 2022-12-01 11:13:00 -0400
 description: In-depth look at the things that turn DC power into AC...
 tags: [Solar Power, Blog Babble, Science, Technology]
 image: /assets/img/2022/12/IQ7Plus_thumb.png
+last_modified_at: 2022-12-01 11:13:00 -0400
 ---
 
 <b>"Why is shade REKKING my solar power output?"</b>

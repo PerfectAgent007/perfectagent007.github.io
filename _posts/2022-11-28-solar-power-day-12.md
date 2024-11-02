@@ -4,6 +4,7 @@ date: 2022-11-28 22:36:00 -0400
 description: Some ground-breaking changes happened today...
 tags: [Solar Power, Blog Babble, Science, Technology]
 image: /assets/img/2022/11/UnderTheGroundThumb.jpg
+last_modified_at: 2022-11-28 22:36:00 -0400
 ---
 
 Today was a double whammy with two crews showing up. The concrete crew was the first to arrive, showing up at 8:35 this morning. My alarm went off less than five minutes before their arrival. So with clothes hastily thrown on and maybe a dozen brain cells functioning I popped my head outside to say "hello". I guided them to the backyard and showed them the footprint of what I wanted done.

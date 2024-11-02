@@ -4,6 +4,7 @@ date: 2022-11-19 22:23:00 -0400
 description: Breakdown on my new power producers...
 tags: [Solar Power, Blog Babble, Science, Technology]
 image: /assets/img/2022/11/SolarCell.png
+last_modified_at: 2022-11-19 22:23:00 -0400
 ---
 
 In going back through my previous posts I realized I never went into detail on the model of solar panel being installed on my house. The Pure Black 400WP from REC Alpha is what we've ended up going with, and while it wasn't my first choice, nor my installer's first choice, there are one or two things I like more than the original selection.

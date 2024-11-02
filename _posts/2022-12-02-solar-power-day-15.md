@@ -4,6 +4,7 @@ date: 2022-12-02 19:03:00 -0400
 description: Concrete slabs are literally designed to come apart at the seams?  Curious...
 tags: [Solar Power, Blog Babble, Science, Technology]
 image: /assets/img/2022/12/ConcreteCrack.png
+last_modified_at: 2022-12-02 19:03:00 -0400
 ---
 
 Like yesterday, today started off quiet with no sign of anyone. I was really hoping the solar crew would show up again with the full team to finish things up today, but as with most things construction related, things didn't go according to plan. What did go according to plan was the concrete crew arriving to do a final inspection and cut the seams in the slab. Everything passed with flying colors (an ironic choice of words considering the slab is technically monochrome) so the team of two set about marking the seams with a chalk line and then cutting.

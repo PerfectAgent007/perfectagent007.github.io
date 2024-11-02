@@ -4,6 +4,7 @@ date: 2023-06-13 22:00:00 -0400
 description: "Gallery of my water cooled computer build from 2021"
 tags: [Computers, Technology, Water Cooling]
 image: /assets/img/2023/06/WaterCooledRig/IMG_20210611_224737.jpg
+last_modified_at: 2023-06-13 22:00:00 -0400
 ---
 
 All pictures were taken from 2021 when I built this machine.

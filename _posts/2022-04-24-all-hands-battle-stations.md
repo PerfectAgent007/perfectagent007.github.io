@@ -4,6 +4,7 @@ date: 2022-04-24 22:28:30 -0400
 description: I’ve had what is classified as a battle station for about four years...
 tags: [Gaming, Technology]
 image: /assets/img/2022/04/shutterstock_213290617-1024x683-1-e1650853620389.jpg
+last_modified_at: 2022-04-24 22:28:30 -0400
 ---
 
 This was originally posted to my old website on Aug 10, 2015, so the concepts and tech mentioned could be considered outdated.

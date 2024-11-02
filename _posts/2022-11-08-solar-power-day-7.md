@@ -4,6 +4,7 @@ date: 2022-11-08 03:28:00 -0400
 description: Fresh planed Douglas Fir smells amazing.  I'm not kidding...
 tags: [Solar Power, Blog Babble, Science, Technology]
 image: /assets/img/2022/11/800px_COLOURBOX1489979.jpg
+last_modified_at: 2022-11-08 03:28:00 -0400
 ---
 
 I hate surprises most of the time, and over the weekend, I had a VERY unpleasant surprise. This project is most certainly not dead, far from it, but it is in danger. I got a call on Saturday from the solar engineer assigned to my project who informed me that if the solar work isn't completed by the end of this Friday, the loan company is going to default on the loan. NOT. COOL. If I had been made aware of this back in, say, July, I feel like I could have brought this to the attention of my pergola project manager and hopefully sped things along. I know this is technically the fine print that escapes everyone's attention, including mine, but as Michael Gross said in Tremors 2: "I feel I was denied ... critical ... NEED-TO-KNOW ... INFORMATION!" This wasn't the only surprise, but it was the worst one yet.

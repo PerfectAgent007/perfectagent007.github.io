@@ -4,6 +4,7 @@ date: 2023-01-02 20:55:00 -0400
 description: "Mmmmm Douglas Fir, *drools*..."
 tags: [Solar Power, Blog Babble, Science, Technology]
 image: /assets/img/2023/01/8m907r.jpg
+last_modified_at: 2023-01-02 20:55:00 -0400
 ---
 
 So this is really just a slideshow showcasing the milling process for the reclaimed Douglas Fir boards, but I wanted to share just how consistently beautiful each one of these turned out just by cleaning them up and planing.  I know I mentioned the warehouse where these boards served as shelving but what I may have neglected to share is that they served that purpose for over a hundred years!  So not only did they survive in the warehouse for all those years, but this Fir is old growth from super old trees.  After running the math, on average, I'm working with wood that's between 200-300 years old.  Now that's just insane to me!  But enough geeking out, to the woodshop!

@@ -4,6 +4,7 @@ date: 2022-12-22 23:51:00 -0400
 description: "There isn't enough wrapping paper to cover my pergola, so I'm using wood instead. :P"
 tags: [Solar Power, Blog Babble, Science, Technology]
 image: /assets/img/2022/12/H7d9ff3ed270544d9ab45ff71d47201f1J.jpg
+last_modified_at: 2022-12-22 23:51:00 -0400
 ---
 
 Today was the last work day for the pergola crew before Christmas break. Work started outside with more boards being brushed clean(er) and then brought into my shop for planing.

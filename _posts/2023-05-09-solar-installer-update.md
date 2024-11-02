@@ -4,6 +4,7 @@ date: 2023-05-09 17:28:00 -0400
 description: "Well this sucks..."
 tags: [Solar Pergola, Blog Babble, Ranting]
 image: /assets/img/2023/05/DanielPlan.png
+last_modified_at: 2023-05-09 17:28:00 -0400
 ---
 
 Just got off the phone with my solar engineer, who is the same person that offered to stain the pergola, not to mention is in charge of all the remaining work that needs to be done.  As of this past Friday he was laid off (or fired, he was rather vague on that detail).  I asked him who I need to talk to at the company, and aside from pointing me at the CEO directly, he couldn't give me an answer since he was part of a mass layoff.  Well that's just GREAT!  I've paid for everything outlined in my last post, which is under contract, but now it seems like there's nobody that can even do the work.  The headache has officially become a migraine.  FML.
