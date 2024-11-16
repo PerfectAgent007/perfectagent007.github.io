@@ -4,6 +4,7 @@ date: 2024-06-06 22:33:00 -0400
 description: "Fixing my solar installer's idiotic mistakes"
 tags: [Solar Power, Computers, Technology]
 image: /assets/img/2024/06/c3po.jpg
+last_modified_at: 2024-06-06 22:33:00 -0400
 ---
 
 <style>
@@ -32,7 +33,7 @@ image: /assets/img/2024/06/c3po.jpg
     }
 </style>
 
-Just over a year ago I [talked about the failures of my solar installer](../solar-installer-update.md) and how the roof they constructed under my solar panels leaked in every possible place because they put pitched roof shingles on a dead flat roof.  I also tried pursuing legal action against them which ultimately failed because by the time I contact a lawyer they had already started liquidating assets for bankruptcy.  FML.  Not only was the work not completed, I wasn't refunded either.  So I had no choice but to wait until I could afford to have someone rebuild the roof.
+Just over a year ago I [talked about the failures of my solar installer](../solar-installer-update) and how the roof they constructed under my solar panels leaked in every possible place because they put pitched roof shingles on a dead flat roof.  I also tried pursuing legal action against them which ultimately failed because by the time I contact a lawyer they had already started liquidating assets for bankruptcy.  FML.  Not only was the work not completed, I wasn't refunded either.  So I had no choice but to wait until I could afford to have someone rebuild the roof.
 
 The new roof will be as it should have been when the pergola was first constructed: a flat membrane roof with proper sealants around any roof penetrations.  Eventually the solar panels will be remounted but I've designed a system of adjustable aluminum struts combined with racking rails to make a unified tilted array.  More details on this in a future post.
 
