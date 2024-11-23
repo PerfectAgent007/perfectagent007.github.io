@@ -2,7 +2,7 @@
 title: "Solar Pergola: New Roof"
 date: 2024-06-06 22:33:00 -0400
 description: "Fixing my solar installer's idiotic mistakes"
-tags: [Solar Power, Computers, Technology]
+tags: [Solar Power, Technology]
 image: /assets/img/2024/06/c3po.jpg
 last_modified_at: 2024-06-06 22:33:00 -0400
 ---
