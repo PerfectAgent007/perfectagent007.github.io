@@ -1,0 +1,27 @@
+# Bundler cache
+.bundle
+vendor
+Gemfile.lock
+
+# Jekyll cache
+.jekyll-cache
+_site
+
+# RubyGems
+*.gem
+
+# NPM dependencies
+node_modules
+package-lock.json
+
+# IDE configurations
+.idea
+
+# Misc
+assets/js/dist
+assets/img/2022/11/.originals
+assets/img/2022/12/.originals
+assets/img/2023/01/.originals
+assets/img/2023/06/.originals
+assets/img/2023/06/WaterCooledRig/.originals
+assets/img/2023/08/.originals
