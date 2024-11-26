@@ -9,13 +9,7 @@ order: 4
   li {line-height:1;}
   p.clear {clear: both;}
 </style>
-<!--
-pfSense and network stack 
-Proxmox server
-NAS
 
-Hardware on standby
--->
 <div class="column">
   <h3 style="text-align: left">Network Stack Hardware:</h3>
     <p>Arris Surfboard SB8200</p><ul>
