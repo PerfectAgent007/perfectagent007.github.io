@@ -49,7 +49,7 @@ order: 4
         <li>24x 2.5" SAS3 front hotswap bays</li>
         <li>2x 2.5" SAS3 rear hotswap bays</li>
         <li>2x 750W 80+ Platinum power supplies</li>
-        <li>2x 10GbE SFTP+ 2x 1GbE mezzanine daughter card</li>
+        <li>2x 10GbE SFP+ 2x 1GbE mezzanine daughter card</li>
         <li>2x 400GB SAS3 SSDs in ZFS mirror</li>
         <li>2x 1.92TB SAS3 SSDs in ZFS mirror</li>
         <li>4x 3.84TB m.2 NVMe SSDs in ZFS RAID10</li>
@@ -118,7 +118,7 @@ order: 4
         <li>12x 3.5" SAS3 front hotswap bays</li>
         <li>2x 2.5" SAS3 rear hotswap bays</li>
         <li>2x 750W 80+ Platinum power supplies</li>
-        <li>2x 10GbE SFTP+ 2x 1GbE mezzanine daughter card</li>
+        <li>2x 10GbE SFP+ 2x 1GbE mezzanine daughter card</li>
         <li>12x 20TB Western Digital Red HDDs</li>
         <li>2x 118GB Intel Optane P1600X m.2 NVMe SSDs</li></ul>
 </div>
