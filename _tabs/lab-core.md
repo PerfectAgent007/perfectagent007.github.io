@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-flask
-order: 4
+order: 6
 ---
 <style>
   .column {width:50%; float: left;}
