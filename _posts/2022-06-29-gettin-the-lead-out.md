@@ -4,26 +4,18 @@ date: 2022-06-29 14:04:00 -0400
 description: Remember when your English teacher told you to save frequently when typing up your essay in the computer lab?...
 tags: [Science, Technology]
 image: /assets/img/2022/06/manz_cylindrical_cells.jpg
+last_modified_at: 2022-06-29 14:04:00 -0400
 ---
 
 <style>
   .column {width:33%; float: left;}
   p.clear {clear: both;}
+  .centerbold {text-align:center;line-height:1.6;}
+  li {line-height:1.2}
 </style>
-<script>
-    MathJax = {
-      chtml: { displayAlign: 'center' }
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']]
-      },
-      svg: {
-        fontCache: 'global'
-      }
-    };
-</script>
 <script
   type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML-full">
 </script>
 
 Last month we lost power for five whole seconds. Yup, I'm going full #FirstWorldProblems here. But those five seconds were five seconds too much for a certain battery pack to handle. Uninterruptible Power Supplies or UPS batteries have been mainstream for close to thirty years now, but there's one thing that hasn't changed (that I've seen in the consumer tier) and that's the battery. To the best of my knowledge UPSes have been using Sealed Lead Acid (SLA) batteries for the duration of their product existence, and the UPS for my desktop computer was, until recently, no exception. Why was this a problem for me? Well let's look at the pros and cons of SLA technology.
@@ -144,70 +136,65 @@ Every battery regardless of chemistry will have a range of usable charge that is
 
 Li-ion and LiFePO4 maximum and minimum voltages are different than SLA, but they have similar limitations. In the case of lithium batteries you have a battery management system (BMS) with almost every (if not every) battery pack in existence to balance each battery cell so their voltages are near identical (if the BMS has this feature) and to prevent overcharging and overdischarging. A LiFePO4 BMS it is specifically designed to protect and thereby extend the battery’s lifespan as long as possible by preventing a battery from going below 2.5v when discharging, or above 3.65v when charging. But obviously 0% isn’t 0v. The BMS cutoff points of 2.5v and 3.65v are the 0% and 100% points respectively. The BMS is also why lithium-based batteries last so much longer than an SLA equivalent. When you have a manager that can cut off the load before the voltage gets too low, low enough to damage the battery, this lets us have those extra charge/discharge cycles so that we can keep using the battery for years. But hang on a minute, the high and low cutoff points for li-ion are 4.2v and 2.5v, giving us about another .7v of range to play with. Couple that with the higher density per cell and, going by the math, a 12Ah li-ion pack (I’m using 12Ah as an arbitrary number, not the actual amount you’d find in a manufactured 12Ah pack) you’d have somewhere in the vicinity of 50% more usable charge. So why choose LiFePO4 over li-ion? Now is when we have to go beyond the math. If capacity alone was enough for me, I’d have gone with li-ion.
 
-In the real world a 12v li-ion pack is made up of three 3.7v cells. And yes $3.7 \times 3 ≠ 12$, but then neither does $3.7 \times 4$. So at nominal voltage you get either 11.1v in a 3-cells-in-series pack (referred to as 3s) or 14.8v in a 4s pack. 11.1 is a lot closer to 12 than 14.8, but I can only speculate the reasons the industry chose 3s for li-ion 12v packs since a lot of electronics will run on 14.8v since that’s a common voltage for a lot of laptops.
+In the real world a 12v li-ion pack is made up of three 3.7v cells. And yes $$3.7 \times 3 ≠ 12$$, but then neither does $$3.7 \times 4$$. So at nominal voltage you get either 11.1v in a 3-cells-in-series pack (referred to as 3s) or 14.8v in a 4s pack. 11.1 is a lot closer to 12 than 14.8, but I can only speculate the reasons the industry chose 3s for li-ion 12v packs since a lot of electronics will run on 14.8v since that’s a common voltage for a lot of laptops.
 
 Since LiFePO4 cells are 3.2v, four of these in series yields 12.8v, which is not only closer to 12v than with li-ion, but also only goes over 12v by a much smaller amount than with a 4s li-ion battery. When you set your load to a constant draw, higher voltage means less current draw, which is a lower strain on the battery cells as well as less heat. But let’s do a little more math:
 
 <div class="column">
   <h4 style="text-align: center">SLA 12v pack in 6s</h4>
-      <p style="text-align: center"><b>Theoretical:</b></p>
-      <p>$$\begin{array}
-          \smash{6 \times 2.1v = 12.6v}\\
-          12.6v \times 12Ah = 151.2Wh\\
-          \end{array}$$
+      <p class="centerbold"><b>Theoretical:</b></p>
+      <p>$$\begin{gather}
+          6 \times 2.1v = 12.6v\\
+          12.6v \times 12Ah = 151.2Wh
+          \end{gather}$$
       </p>
-      <p style="text-align: center"><b>Real:</b></p>
-      <p>$$\begin{array}
-          \smash{2.3v – 1.75v = 0.55v}\\
-          \text{(full charge vs dead)}\\
-          \\
-          \smash{6 \times 0.55v = 3.3v}\\
-          \text{(usable voltage across all cells)}\\
-          \\
-          \smash{3.3v \times 12Ah = 39.6Wh \ \text{usable}}
-          \end{array}$$
+      <p class="centerbold"><b>Real:</b></p>
+      <p>$$\begin{gather}
+          2.3v-1.75v  =0.55v\\
+          \text{(full charge vs dead)}\\\\
+          6 \times 0.55v = 3.3v\\
+          \text{(usable voltage across all cells)}\\\\
+          3.3v \times 12Ah = 39.6Wh ~ \text{usable}
+          \end{gather}$$
       </p>
 </div>
 <div class="column">
   <h4 style="text-align: center">Li-ion 12v pack in 3s</h4>
-      <p style="text-align: center"><b>Theoretical:</b></p>
-      <p>$$\begin{array}
-          \smash{3 \times 3.7v = 11.1v}\\
+      <p class="centerbold"><b>Theoretical:</b></p>
+      <p>$$\begin{gather}
+          3 \times 3.7v = 11.1v\\
           11.1v \times 12Ah = 133.2Wh\\
-          \end{array}$$</p>
-      <p style="text-align: center"><b>Real:</b></p>
-      <p>$$\begin{array}
-          \smash{4.2v – 2.5v = 1.8v}\\
-          \text{(range limited by BMS)}\\
-          \\
-          \smash{3 x 1.8v = 5.4v}\\
-          \text{(usable voltage across all cells)}\\
-          \\
-          \smash{5.4v x 12Ah = 64.8Wh \ \text{usable}}
-          \end{array}$$
+          \end{gather}$$</p>
+      <p class="centerbold"><b>Real:</b></p>
+      <p>$$\begin{gather}
+          4.2v-2.5v = 1.8v\\
+          \text{(range limited by BMS)}\\\\
+          3 \times 1.8v = 5.4v\\
+          \text{(usable voltage across all cells)}\\\\
+          5.4v \times 12Ah = 64.8Wh ~ \text{usable}
+          \end{gather}$$
       </p>
 </div>
 <div class="column">
   <h4 style="text-align: center">LiFePO4 12v pack in 4s</h4>
-    <p style="text-align: center"><b>Theoretical:</b></p>
-      <p>$$\begin{array}
-          \smash{4 \times 3.2v = 12.8v}\\
+    <p class="centerbold"><b>Theoretical:</b></p>
+      <p>$$\begin{gather}
+          4 \times 3.2v = 12.8v\\
           12.8v \times 12Ah = 153.6Wh\\
-          \end{array}$$</p>
-      <p style="text-align: center"><b>Real:</b></p>
-      <p>$$\begin{array}
-          \smash{3.65v – 2.5v = 1.15v}\\
-          \text{(range limited by BMS)}\\
-          \\
-          \smash{4 x 1.15v = 4.6v}\\
-          \text{(usable voltage across all cells)}\\
-          \\
-          \smash{4.6v x 12Ah = 55.2Wh \ \text{usable}}
-          \end{array}$$
+          \end{gather}$$</p>
+      <p class="centerbold"><b>Real:</b></p>
+      <p>$$\begin{gather}
+          3.65v-2.5v=1.15v\\
+          \text{(range limited by BMS)}\\\\
+          4 \times 1.15v = 4.6v\\
+          \text{(usable voltage across all cells)}\\\\
+          4.6v \times 12Ah = 55.2Wh ~ \text{usable}
+          \end{gather}$$
       </p>
-<br></div>
+</div>
+<p class="clear"></p>
 
-<p class="clear">Looking at the numbers above, li-ion is indeed the clear winner for capacity, though LiFePO4 does come in a decently close second. And as I said before if capacity was my only goal I’d have gone with li-ion packs. But I also care about two more things: overall longevity and heat. LiFePO4 cells are rated for easily ten times as many charge/discharge cycles as li-ion and certainly a hundred times more as SLA. But since SLA and li-ion don’t like staying at 100% charge for prolonged periods of time, just by sitting and waiting for a power load will shorten their life span. LiFePO4 is by no means invulnerable, but then out of all battery chemistries to date it is the most hardened to it. Translating this into potential real-world numbers, an SLA UPS battery might last between 5 and 20 cycles depending on the frequency and duration of power interruptions, a li-ion could go between 10 and 50, but I would expect a LiFePO4 to go between 50 and 200. But most importantly an SLA UPS battery might last a few years at most before it can’t sustain any load even if only discharged two or three times. Li-ions are rated at 8 to 10 (I’ve never actually owned one for a UPS battery so I can’t speak to real-world test results) but I imagine they would definitely last 6 to 8. LiFePO4 are rated for 10 years but I expect that it could push through ten years without breaking a sweat. And because LiFePO4 batteries don’t heat up under load, this combined with the lower current draw due to the higher total voltage output in a 12v battery pack makes them very appealing.</p>
+Looking at the numbers above, li-ion is indeed the clear winner for capacity, though LiFePO4 does come in a decently close second. And as I said before if capacity was my only goal I’d have gone with li-ion packs. But I also care about two more things: overall longevity and heat. LiFePO4 cells are rated for easily ten times as many charge/discharge cycles as li-ion and certainly a hundred times more as SLA. But since SLA and li-ion don’t like staying at 100% charge for prolonged periods of time, just by sitting and waiting for a power load will shorten their life span. LiFePO4 is by no means invulnerable, but then out of all battery chemistries to date it is the most hardened to it. Translating this into potential real-world numbers, an SLA UPS battery might last between 5 and 20 cycles depending on the frequency and duration of power interruptions, a li-ion could go between 10 and 50, but I would expect a LiFePO4 to go between 50 and 200. But most importantly an SLA UPS battery might last a few years at most before it can’t sustain any load even if only discharged two or three times. Li-ions are rated at 8 to 10 (I’ve never actually owned one for a UPS battery so I can’t speak to real-world test results) but I imagine they would definitely last 6 to 8. LiFePO4 are rated for 10 years but I expect that it could push through ten years without breaking a sweat. And because LiFePO4 batteries don’t heat up under load, this combined with the lower current draw due to the higher total voltage output in a 12v battery pack makes them very appealing.
 
 So now my 900W UPS has two 12v 18Ah LiFePO4 packs in it and during the prolonged power outage I decided to test a gaming load since I still had an internet connection. Playing Star Trek Online (the game I happened to be playing when we lost power) I was pulling down about 360W peak, with 90-100W of that being my three monitors. My UPS display fluctuated between 35 and 50 minutes of backup time, which is several times what I’ve been able to get in the past under SLA batteries in the same unit. Maybe next time I feel like doing a test I’ll load up Shadow of the Tomb Raider or Horizon Zero Dawn? “Run time during power loss” would make for an interesting benchmark statistic.
 
