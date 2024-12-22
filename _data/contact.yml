@@ -1,18 +1,35 @@
 #  The contact options.
 
-- type: github
-  icon: "fab fa-github"
-
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
-
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
-
 - type: rss
   icon: "fas fa-rss"
   noblank: true
+
+- type: github
+  icon: "fab fa-github"
+
+- type: steam
+  icon: "fa-brands fa-steam-symbol"
+  url: "https://steamcommunity.com/profiles/76561197967965006"
+
+- type: twitch
+  icon: "fa-brands fa-twitch"
+  url: https://twitch.tv/perfectagent007
+
+- type: bluesky
+  icon: "fa-brands fa-bluesky"
+  url: "https://bsky.app/profile/perfectagent007.bsky.social" # Fill with your Bluesky profile link
+
+- type: twitter
+  icon: "fa-brands fa-twitter"
+
+- type: reddit
+  icon: "fa-brands fa-reddit"
+  url: "https://reddit.com/user/perfectagent007"
+
+# - type: email
+#   icon: "fas fa-envelope"
+#   noblank: true # open link in current tab
+
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
