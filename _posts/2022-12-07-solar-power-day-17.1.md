@@ -1,0 +1,20 @@
+---
+title: "Solar Power Day 17.1"
+date: 2022-12-07 20:55:00 -0400
+description: One of these things is kinda like the other ... but they shouldn't be...
+tags: [Solar Power, Blog Babble, Science, Technology]
+image: https://i.postimg.cc/FzhRkgst/Mirror-Confused.jpg
+---
+
+This is a follow-up post from last night. Now that we've had a day of sunlight I have a few things to report. The first is that, sadly, one of the microinverters isn't being seen by the Enphase system, so we've either got a bad inverter, or a power connection isn't seated all the way. The Enlighten app is only reporting 47 of the 48 inverters installed. After speaking with my solar installer, unfortunately we can't rely on the Enphase Enlighten app telling us where the problematic inverter is either since the mapping hasn't been completed, and therefore the arrays in the app aren't technically accurate. This means that when the solar crew next returns they are going to have to potentially inspect each panel and microinverter individually in order to get the mapping correct and locate the malfunctioning inverter. Personally I'm betting this is just a loose or bad cable connection, but it's certainly possible there's a bad inverter. I also don't know at this time whether it could be a bad solar panel, or bad connection from the panel to the microinverter since I don't know whether a microinverter will power up with just grid power connected to it. A question for the Enphase forums or their customer support, I suppose.
+
+The second issue I encountered is that when solar production increased with brighter sunlight, so did my power consumption, which makes no sense. At the time I was watching this, which was around 9AM this morning, I was the only one awake and the only active loads in the house were the constant ones - furnace blower, a little bit of ghost power for various electronics, and my servers. Around noon when solar production was much higher, even with a slightly higher load coming from the house, the combiner still thinks that my house was pulling down 10.2kW. At 240VAC that's 42.5 amps! Not even with my electric cooktop and oven running at full tilt would my house pull down that much power!
+
+![EnphaseScreenshot](https://i.postimg.cc/LsMBQwxj/Screenshot-20221223-034003.jpg)
+*<i>This ... is not right.</i>*
+
+After searching on Enphase support forums for a bit a few other users have encountered the same issue and the cause seems to be one or more of the monitoring sensors is hooked up backwards in the combiner box. That tracks with what I've observed today. The consumption readout is a perfect mirror (with an offset for my actual consumption) of my production readout during the hours the panels produced power. And the sensors only have two wires each. Getting them backwards sometimes just happens, which is something I can attest to personally. The other possibility is that one of the three sensors wasn't configured correctly in the combiner box's programming and the system is reading that as consumption instead of production. If I knew were the problem was, and it didn't void the warranty, I'd fix this myself given how simple an issue it potentially is. But yeah, need that warranty.
+
+All of this being said, I did conduct a little experiment late in the evening when the array wasn't producing any power.  I wanted to see how long a delay there was in the live report of power usage and production.  So while my wife was using an electric water kettle I watched the sensor readouts.  Since there was no production from the panels, the live readout should have been accurate.  Anyway, while the kettle was running my house was pulling down a grand total of about 1800W.  When the kettle shut off this number dropped down to less than 1000W in less than two seconds.  So the live readout is pretty darn quick to update.  That makes me happy. :P
+
+Tomorrow I'm going to give the solar installer a call to see when they can get someone back to my place to fix the sensors. Hopefully this will get fixed soon so I can get some accurate information to post here. See you next time.
