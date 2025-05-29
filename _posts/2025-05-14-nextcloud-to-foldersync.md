@@ -7,6 +7,10 @@ image: https://i.postimg.cc/0ND6MWyz/Folder-Sync-Logo.png
 ---
 
 <style>
+    .center {
+    margin: auto;
+    width: 450px;
+  	}
     .div25 {
         float:left;
         padding: 10px 8px;
@@ -25,15 +29,9 @@ image: https://i.postimg.cc/0ND6MWyz/Folder-Sync-Logo.png
         float:left;
         padding: 10px 8px;
         height:200px;
-        width:50%;
+        width:200px;
         overflow:hidden;
         }
-    .flex33{
-        padding-top: 35px;
-        padding-left: 8px;
-        padding-right: 8px;
-        height: 175px;
-    }
     .clear {
         clear:both;
         height:1.2em;
@@ -125,15 +123,17 @@ service smbd restart
 
 In FolderSync the first step was to add the Samba shares to the accounts tab.  For me that was two shares, one that contained the backup folders for my Phone, and another for other personal data (e.g. Obsidian vaults).
 
+<div class="center">
 <div class="div50"><img src="https://i.postimg.cc/bY45xBCg/Screenshot-2025-05-27-01-47-12-79.jpg" alt="" data-gallery="gallery2"></div>
 <div class="div50"><img src="https://i.postimg.cc/tCPM2N8j/Screenshot-2025-05-26-23-56-39-42-d34a4a90c4bafa19d6180fac09c8c8af.jpg" alt="" data-gallery="gallery2"></div>
-<div class="clear"></div>
+<div class="clear"></div></div>
 
 Next was creating the folder pairs.
 
+<div class="center">
 <div class="div50"><img src="https://i.postimg.cc/qB568Cfn/IMG-20250527-023012.jpg" alt="" data-gallery="gallery3"></div>
 <div class="div50"><img src="https://i.postimg.cc/W1wfPb2Y/Screenshot-2025-05-26-23-36-03-54-d34a4a90c4bafa19d6180fac09c8c8af.jpg" alt="" data-gallery="gallery3"></div>
-<div class="clear"></div>
+<div class="clear"></div></div>
 
 Once each folder pair was created I could then set the sync schedule and other options, the one category of features that was glaringly missing from Nextcloud.  I haven't shown all of the options, but you really do get to configure a lot.  I always love it when I get the kitchen sink.
 
