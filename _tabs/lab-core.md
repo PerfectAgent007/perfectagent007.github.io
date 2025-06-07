@@ -53,7 +53,7 @@ order: 6
         <li>2x 400GB SAS3 SSDs in ZFS mirror</li>
         <li>2x 1.92TB SAS3 SSDs in ZFS mirror</li>
         <li>4x 3.84TB m.2 NVMe SSDs in ZFS RAID10</li>
-        <li>6x 3.84TB SATA SSDs in 3x ZFS mirrors</li></ul>
+        <li>6x 3.84TB SATA SSDs in various ZFS configurations</li></ul>
   <h3 style="text-align: left">Proxmox Virtual Machines:</h3>
     <p>Windows 10 22H2</p><ul>
         <li>Work VM for software testing</li></ul>
@@ -79,14 +79,16 @@ order: 6
 <div class="column">
   <h3 style="text-align: left">Proxmox LXC Services:</h3>
     <p>Served via ZFS RAID10 pool</p>
-    <p>WireGuard</p><ul>
+    <p>Tailscale</p><ul>
         <li>VPN connection to home network</li>
+        <li>Uses WireGuard for VPN connections</li>
         <li>Primarily used to provide mobile connection to personal cloud</li></ul>
-    <p>Nextcloud</p><ul>
-        <li>Personal cloud storage</li>
-        <li>Uses first 3.84TB ZFS mirror for data storage</li></ul>
     <p>UniFi Controller</p><ul>
         <li>Provisions and monitors WiFi access points</li></ul>
+    <p>RustDesk</p><ul>
+        <li>Debian 12 template</li>
+        <li>Self-hosted relay server</li>
+        <li>Provides remote desktop to all Proxmox Windows and MacOS VMs</li></ul>
     <p>Homepage</p><ul>
         <li>Self-hosted dashboard to all homelab services</li></ul>
     <p>AMP (Application Management Panel)</p><ul>
@@ -95,10 +97,19 @@ order: 6
         <li>Valheim</li>
         <li>7 Days to Die</li>
         <li>Satisfactory</li></ul>
-    <p>Samba file server</p><ul>
-        <li>Debian 11 turnkey template</li>
+    <p>Samba file server 1 (inactive but operational)</p><ul>
+        <li>Debian 12 template</li>
         <li>Serves test files, software, and storage for work</li>
-        <li>Uses second 3.84TB ZFS mirror for data storage</li></ul>
+        <li>Uses 3.84TB ZFS mirror for data storage</li></ul>
+    <p>Samba file server 2</p><ul>
+        <li>Debian 12 template</li>
+        <li>Hosts Samba shares for personal files and Android device backups</li>
+        <li>Uses 7.68TB ZFS stripe mirror for data storage</li></ul>
+    <p>Immich</p><ul>
+        <li>Debian 12 template</li>
+        <li>Runs without Docker</li>
+        <li>Syncs and stores all Android device photos, videos, and downloaded audiovisual content</li>
+        <li>Machine learning and facial recognition enabled</li></ul>
     <p>*arr</p><ul>
         <li>Prowlarr</li>
 		<li>Radarr</li>
@@ -106,7 +117,14 @@ order: 6
 		<li>Lidarr</li>
 		<li>Readarr</li>
 		<li>Jackett</li>
-		<li>FlareSolverr (uses Docker container)</li></ul>
+		<li>FlareSolverr</li></ul>
+    <p>DeepSeek</p><ul>
+        <li>Debian 12 template</li>
+        <li>Runs using command line Ollama (might try to use a web UI frontend if a self-hosted version becomes available)</li>
+        <li>Exploratory use only at present</li>
+        <li>No GPU acceleration</li>
+        <li>Typically run with R1-7b model but occasionally 32b</li></ul>
+
 </div>
 <p class="clear"></p>
 
