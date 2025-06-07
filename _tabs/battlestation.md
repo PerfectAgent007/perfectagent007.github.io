@@ -17,8 +17,8 @@ order: 5
     <li>Aorus z390 Master ATX motherboard</li>
     <li>64GB G.Skill TridentZ DDR4 3200MHz</li>
     <li>EVGA Nvidia RTX 3080Ti FTW3</li>
-    <li>Samsung 970 Pro 256GB m.2 NVMe SSD (boot and programs drive)</li>
-    <li>Samsung 970 Pro 2TB m.2 NVMe SSD (games drive)</li>
+    <li>Intel Optane 905P 280GB PCIe NVMe SSD (boot and programs drive)</li>
+    <li>Samsung 970 Pro 1TB m.2 NVMe SSD (games drive)</li>
     <li>Intel 660p 2TB m.2 NVMe SSD (main files drive)</li>
     <li>Silicon Power 4TB SATA SSD (secondary files drive)</li>
     <li>Corsair HX-1200i 80+ Platinum 1200W ATX power supply</li></ul>
