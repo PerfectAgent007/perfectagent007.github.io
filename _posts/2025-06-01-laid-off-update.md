@@ -1,9 +1,9 @@
 ---
 title: "Unemployment Update"
 date: 2025-06-01 16:44:00 -0400
-description: "The only way out is through"
+description: "Is it time yet?"
 tags: [Life]
-image: https://i.postimg.cc/GtxjcTXn/Well-shit.png
+image: https://i.postimg.cc/1z21gssy/TheyLive.png
 ---
 
 It's been a month since my post about [getting laid off from my job](../laid-off).  The shock has long since worn off and I'm at least grateful that it hasn't resulted in crippling depression or anything like that ... at least not yet.  To my surprise I've actually been in a better head space than I expected.  I've been very fortunate in life to have been employed at one place for as long as I was, and that it served as my only professional work experience to date.  Do I have new prospects?  Time will tell.  More on that in a minute.
