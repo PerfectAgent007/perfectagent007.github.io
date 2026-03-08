@@ -43,14 +43,12 @@ image: https://i.postimg.cc/yx2FYpRV/Immich-2.png
 
 Four months ago I posted about [self-hosting Immich](../immich) in an LXC container to manage photos and videos from my phone.  Me being me it wasn't enough to just get the service up and running and all data be stored in the container drive, no I had to mount multiple ZFS paths for each user I planned to create and then create a batch of symbolic links for every relevant user path so that the media could also be accessed in a simpler manner via SMB share for our Windows machines (e.g. dragging photos into Discord or a local photo editor).  We engineers are all about designing and tweaking things to meet our needs, so am I an engineer?  Yeah I think so.  Am I crazy?  Haven't you already asked that question before?  Besides, I thought I established that years ago.  Anyway moving on.
 
-<div class="div50"><img src="https://i.postimg.cc/htKTpmcs/Moving-On.png" alt="" data-gallery="gallery1"></div>
-<div class="clear"></div>
+![MovingOn](https://i.postimg.cc/htKTpmcs/Moving-On.png){: data-gallery="gallery1"}
 
 Given how much of a headache it was getting Immich set up using an LXC container instead of Docker I've been keeping an eye out on the [Proxmox VE Helper Scripts website](https://community-scripts.github.io/ProxmoxVE/) for an LXC installer script and unbelievably the *DAY* after I made my last post the script appeared!  In the voice of Simon Pegg as Scotty: *ONE BLOODY DAY!!*  Why wait so long to test it out?  Four reasons: job hunting, working on my solar array, prepping for QuakeCon, and dealing with the fallout of the American Airlines from QuakeCon.  But enough about my excuses, let's get 'labby!
 
 ## Creating the container
-<div class="div50"><img src="https://i.postimg.cc/9f30DVPY/Face-Worried-Container.jpg" alt="" data-gallery="gallery2"></div>
-<div class="clear"></div>
+![FaceContainer](https://i.postimg.cc/9f30DVPY/Face-Worried-Container.jpg){: data-gallery="gallery2"}
 
 The webpage for the installation script and instructions can be found [here](https://community-scripts.github.io/ProxmoxVE/scripts?id=immich) and the command to create the Immich LXC container from the Proxmox host shell as root (or via SSH) is:
 
@@ -219,15 +217,13 @@ Entering the IP address of the LXC container with port 2283 brought me to the Im
 
 By default Immich stores uploaded files in hashed form for both the file names and the folders.  I read recently that the reason for this is to minimize the full file paths so that they load faster.  This makes perfect sense from a performance standpoint, and if I didn't need to access my media files outside of Immich I would have left this alone.  But since I prefer to make things a bit complicated behind the scenes I chose a preset that used the album name (e.g. Camera) and the original file name.
 
-<div class="div50"><img src="https://i.postimg.cc/7hKvhXNS/Immich-Web-Storage-Template-Configured.png" alt="" data-gallery="gallery7"></div>
-<div class="clear"></div>
+![TemplateConfigured](https://i.postimg.cc/7hKvhXNS/Immich-Web-Storage-Template-Configured.png){: data-gallery="gallery7"}
 
 The only thing I don't like about the Storage Template is that this is seemingly the one function that can't be automated in Immich.  I've seen a number of people posting about this on Reddit and on their Github and Discord so there is definitely a demand for this.  Nextcloud's internal file scanner has the ability to trigger when detecting changes to a file system after editing a config file, so I know this can be done.  But in the meantime running the job manually from the web browser isn't the end of the world since it really does only take a few moments of my time.  I can live with that.
 
 The next few prompt windows were just informational ones about 3-2-1 backups and ways to download the mobile app.  Once I clicked "Done" I was presented with a familiar interface like with my pre-helper-script version but now it recognized the mounted storage as its main storage volume.  This was very pleasing because now I knew that every relevant file including database backups was being stored in the correct location.
 
-<div class="div50"><img src="https://i.postimg.cc/vHbC9Rg8/Immich_Web_Main.png" alt="" data-gallery="gallery8"></div>
-<div class="clear"></div>
+![WebMain](https://i.postimg.cc/vHbC9Rg8/Immich_Web_Main.png){: data-gallery="gallery8"}
 
 I'm not one hundred percent certain if the database itself is being stored in the mounted storage, but considering that after doing a full upload of my phone's contents, which amounted to nearly seven thousand files, the container's boot drive usage only increased by 2GB I'm not worried about that.  Also, 20GB is pretty microscopic compared to the roughly 6TB of free space I have on the ZFS pool I use for all of my LXCs and VMs which doesn't include the raw images for Immich.  If I need to increase the boot drive, that's literally done with a few mouse clicks and some keystrokes.
 
@@ -241,8 +237,7 @@ With the initial configuration complete I could now create the remaining user ac
 
 The next step was to give each account a storage label so that the storage template stores images associated with a given account in a folder labeled after the user rather than the generated ID.
 
-<div class="div50"><img src="https://i.postimg.cc/prz3mYt8/Immich-Edit-User.png" alt="" data-gallery="gallery10"></div>
-<div class="clear"></div>
+![EditUser](https://i.postimg.cc/prz3mYt8/Immich-Edit-User.png){: data-gallery="gallery10"}
 
 This step is technically optional and really only something I deem necessary since I'm sharing the content via SMB share in addition to Immich.  The folder labels are a non-issue when running Immich by itself because by default only Immich deals with the folder labeling, not the user.  As a side note though it would be nice if Immich made a desktop client of some kind as this would eliminate my need of serving up the content on my local network via SMB.  There's nothing wrong with the web interface at all, it's strictly a me problem because I don't like things that are for a specific purpose being buried in browser tabs where I have to go digging for it.  On Windows I use XnView as an image browser because it's super fast compared to web pages, however it doesn't have Immich's search capabilities and other benefits that stem from its machine learning ability.  But like I said, just a side note.  Anyway, I've digressed.
 
