@@ -1,7 +1,6 @@
 ---
 title: Confidential Report (Expanded)
 date: 2026-06-12 23:46:00 -0400
-layout: none
 hidden: true
 permalink: /garf/
 ---
