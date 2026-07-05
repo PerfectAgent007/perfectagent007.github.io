@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
-title: Confidential Report - Expanded Background Information
-=======
 title: Confidential Report (Expanded)
->>>>>>> 5798d0aa6b337859758e85d94dae6b974e372512
 date: 2026-06-12 23:46:00 -0400
 layout: none
 hidden: true
