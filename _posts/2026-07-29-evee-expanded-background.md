@@ -124,7 +124,7 @@ permalink: /eevee/
 
 **Alias:** "eeveeandditto”  
 **AKA:** "Eevee"  
-**Legal Name:** <span class=redacted>Redacted</span> Speaking it aloud prompted an elaborate and strong response from Nintendo, see <span class=redacted>Redacted</span>-Nintendo Incident dossier  
+**Legal Name:** <span class=redacted>        </span> - speaking it aloud prompted an elaborate and strong response from Nintendo, see <span class=redacted>        </span>-Nintendo Incident dossier  
 **Species:** Alleged Human-Multi-Pokemon Hybrid (pending more accurate classification)  
 **Gender:** Assessment in progress, claims male when under duress  
 **Estimated Age:** Difficult to determine due to dual Pokemon gene splicing detected in DNA profile, presents similar to a human around age 25  
